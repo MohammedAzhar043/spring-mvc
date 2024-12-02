@@ -1,0 +1,28 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<!-- first step -->
+	<!-- configure dispatcher servlet -->
+	<!-- second step -->
+	<!-- second step,creating configration file, naming convenstoin is as follws,name 
+		of the servlet in this case spring then - then servlet.xml -->
+	<!-- 3rd step -->
+	<!-- view resolver -->
+	<!-- 4th step -->
+	<!-- controller -->
+	<!-- 5th step -->
+	<!-- creating views folder and index.jsp -->
+	<!-- first step -->
+	<servlet>
+		<servlet-name>spring</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>spring</servlet-name>
+		<url-pattern>/</url-pattern><!-- sare urls,it will handle all the request -->
+	</servlet-mapping>
+</web-app>
